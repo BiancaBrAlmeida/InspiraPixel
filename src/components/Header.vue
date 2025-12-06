@@ -45,9 +45,6 @@ header {
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
-  }
-
-  li {
     list-style: none;
   }
 
@@ -65,6 +62,9 @@ header {
 .navegation {
   display: flex;
   align-items: center;
+  width: 100%;
+  justify-content: end;
+  margin: 0 2rem;
 }
 
 .btn_menu {
@@ -96,7 +96,7 @@ header {
   border-top-left-radius: 10px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   header {
     ul {
       display: flex;
@@ -116,7 +116,6 @@ header {
 
   .navegation {
     gap: 2rem;
-    align-items: center;
   }
 }
 </style>
