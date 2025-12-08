@@ -40,7 +40,7 @@
 <style scoped lang="scss">
 footer {
   display: flex;
-  box-shadow: 1px 1px 10px #a7a7a7;
+  box-shadow: 1px 1px 10px #e7a4ba;
   flex-direction: column;
   align-items: center;
 }
@@ -81,7 +81,7 @@ footer {
     cursor: pointer;
 
     &:hover {
-      background-color: #df80a0;
+      background-color: #e7a4ba;
       transition: 0.3s;
     }
   }

@@ -38,7 +38,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
-  box-shadow: 1px 1px 10px #a7a7a7;
+  box-shadow: 1px 1px 10px #e7a4ba;
 
   ul {
     display: flex;
